@@ -2,7 +2,7 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const sqlite3 = require('sqlite3').verbose();
+const sqlite3 = require('sqlite3');
 const cors =require("cors");
 const { Database } = require('sqlite3');
 
